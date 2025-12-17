@@ -1,1 +1,5 @@
 write up: currently as is i can drag tiles to the board and drag them back to the rack. when putting tiles on the rack the points update and when dragged back to rack the points adjust. both button works so pressing next word adds your score to total score and resets the rack for a new word. all core features required work. As for issues i have to issue that i know have to do with the way im overlaying my grid, the first issue is that if i drag a word back to the rack but let go before fully at the rack the tile gets stuck behind the board and rack and there is no way to get it back, the other issue is that if i drag back a tile to the rack but let it go near the board the tile will snap to the board but be invisible. Both issues i wasnt able to fix because when i attempted to fix how my overlay works my board wouldnt work. another slight issue thats more visual is that my board is a little stretched and when i attempted to fix it my tile snapping looked off so i left the board image as is.
+
+https://github.com/ChrisHuerta01976865/GUI-5
+
+https://chrishuerta01976865.github.io/GUI-5/
