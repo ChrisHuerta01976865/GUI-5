@@ -1,0 +1,67 @@
+<!--
+ File: index.html
+ GUI Assignment: scrabble
+ Christopher Huerta
+ 12/17/25
+html file holding the structure of the webpage
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scrabble</title>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+  <script src="/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+  <script src="/script.js" defer></script>
+</head>
+<body>
+
+
+<div id="board-container">
+  <img src="/Scrabble_Tiles/Scrabble_Board_OneLine.png" id="board-image">
+
+  <div id="board-overlay"></div>
+</div>
+<!-- sets up rack -->
+<div id="rack-container">
+  <img
+    src="/Scrabble_Tiles/scrabble-tile-holder-406774_640.png"
+    id="rack-image"
+    alt="Tile Holder"
+  />
+  <div id="rack-overlay"></div>
+</div>
+<!-- sets up buttons -->
+<button id="next-word-btn">Next Word</button>
+<button id="restart-btn">Restart Game</button>
+
+
+<p>
+  <strong>Total Score:</strong>
+  <span id="total-score">0</span>
+</p>
+
+<!-- sets display for current word and score -->
+<div id="score-display">
+  <strong>Word:</strong> <span id="current-word">—</span><br>
+  <strong>Score:</strong> <span id="current-score">0</span>
+</div>
+
+
+
+
+
+
+</body>
+</html>
