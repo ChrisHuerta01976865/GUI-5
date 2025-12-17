@@ -41,9 +41,9 @@ for (let i = 0; i < 7; i++) {
 //makes sure the tile your grabbing has the correct image location
 function getTileImg(letter) {
   if (letter === "_") {
-    return "Scrabble_Tiles/Scrabble_Tile_Blank.jpg";
+    return "/Scrabble_Tiles/Scrabble_Tile_Blank.jpg";
   }
-  return `Scrabble_Tiles/Scrabble_Tile_${letter}.jpg`;
+  return `/Scrabble_Tiles/Scrabble_Tile_${letter}.jpg`;
 }
 
 //creates the image part of the tile and adds it to the rack
