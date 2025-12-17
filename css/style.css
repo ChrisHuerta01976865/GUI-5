@@ -11,7 +11,7 @@ body {
   padding: 20px;
 }
 
-/* RACK */
+/* rack */
 #rack-container {
   position: relative;
   width: 640px;
@@ -37,7 +37,7 @@ body {
   gap: 6px;
 }
 
-/* Tiles */
+/* tiles */
 #rack-overlay img,
 .board-square img {
   width: 56px;
@@ -46,7 +46,7 @@ body {
 }
 
 
-/* BOARD */
+/* board */
 #board-container {
   position: relative;
   width: 900px;
